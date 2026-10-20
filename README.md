@@ -1,6 +1,6 @@
-** ESERCITAZIONE 20/10 - RAGIONARE SOLO CON JS
+## ESERCITAZIONE 20/10 - RAGIONARE SOLO CON JS 
 
-** MODIFICARE SOLO FILE SCRIPT.JS
+## MODIFICARE SOLO FILE SCRIPT.JS
 
 Contesto
 
@@ -23,7 +23,7 @@ div.divData
 span.data
 button "Elimina"
 
-** STEP OPERATIVI
+## STEP OPERATIVI
 
 1- Creare Array tasks { testo, priorita, data, evidenziato }: il DOM è conseguenza dell'array, così l'evidenziazione sopravvive ai ridisegni.
 2- Usare render(): unico punto che tocca il DOM; svuota la lista e ricostruisce i li con textContent (no innerHTML); aggiorna #contatore con tasks.length.
@@ -35,14 +35,14 @@ button "Elimina"
 8- Pulsanti inerti: "Aggiungi" (già nell'HTML) e "Elimina" (creato con render() su ogni li) non hanno nessuna funzione collegata. 
 Il bottone Elimina è solo creato, nessuna funzione di eliminazione viene scritta, viene solo disengato da render().
 
-** SCRIVERE FUNZIONI 
+## SCRIVERE FUNZIONI 
 
 Scrivere le funzioni sopra indicate
 
-** TEST
+## TEST
 
 Aprire index.html e provare le funzioni sviluppate in console.
 
-** REPORT 
+## REPORT 
 
 Riportare eventuali successi o fallimenti.
